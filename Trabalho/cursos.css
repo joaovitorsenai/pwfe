@@ -1,0 +1,29 @@
+.btn{
+	background-color: rgb(255, 00, 00);
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5%;
+	
+}
+
+
+.letra{
+	margin-top: 210px;
+	margin-left: 63%;
+	color: #ffffff;
+	position: absolute;
+	font-size: 50px;
+}
+
+.img{
+	margin-top: 4%;
+	width: 100%;
+}
+
+.texto{
+	background-color: rgba(86, 118, 165, 0.4);
+	margin: 3% 10% 3% 10%;
+	padding: 30px;
+	border-radius: 8px;
+}

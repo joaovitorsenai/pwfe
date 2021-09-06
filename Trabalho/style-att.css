@@ -1,0 +1,74 @@
+
+.fundo{
+	background-image: url('fundo.jpg');
+}
+
+#tituloNC{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 28px;
+	color: #DCDCDC;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 404px 404px;
+	grid-template-rows: 404px 404px;
+	grid-column-gap: 45px;
+	
+	padding: 5% 0% 0% 18%;
+
+	
+}
+
+.text{
+	padding: 0% 0% 0% 5%;
+	margin-bottom: 10px;
+	color: #DCDCDC;
+}
+
+.botao{
+	text-align: center;
+	padding: 5px;
+	margin: 21px;
+	background-color: #000000;
+	border-radius: 5px;
+	color: white;
+}
+
+.botao:hover{
+	color: #2F4F4F;
+	background-color: #DCDCDC;
+	transition: background .4s;
+}
+
+.itens img{
+	margin: 10px;
+	box-shadow: currentColor;
+	box-shadow: 10px 10px 10px;
+	border-radius: 5px;
+}
+
+
+/*Rodape*/
+
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	color: #DCDCDC;
+	padding: 50px;
+	padding-left: 150px;
+}
+
+.footer div{
+	margin-left: 100px;
+}
+
+.footer div li a{
+	color: #DCDCDC;
+}
+
+.footer div li a:hover{
+	color: #0000FF;
+}
+
